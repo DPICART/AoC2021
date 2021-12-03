@@ -42,11 +42,11 @@ public class AoC02 extends AoC2021 {
                     horizontal -= qtt;
                     break;
                 default:
-                    System.out.println("Failed "+verb+" "+qtt);
+                    System.out.println("Failed " + verb + " " + qtt);
             }
 
         }
-        System.out.println("depth "+depth+" horizontal"+horizontal+" product "+depth*horizontal);
+        System.out.println("depth " + depth + " horizontal " + horizontal + " product " + depth * horizontal);
 
     }
 
@@ -68,22 +68,20 @@ public class AoC02 extends AoC2021 {
                     depth += (aim * qtt);
                     break;
                 case "down":
-                    //depth += qtt;
                     aim += qtt;
                     break;
                 case "up":
-                    //depth -= qtt;
                     aim -= qtt;
                     break;
                 case "backward":
                     horizontal -= qtt;
                     break;
                 default:
-                    System.out.println("Failed "+verb+" "+qtt);
+                    System.out.println("Failed " + verb + " " + qtt);
             }
 
         }
-        System.out.println("depth "+depth+" horizontal"+horizontal+" product "+depth*horizontal);
+        System.out.println("depth " + depth + " horizontal " + horizontal + " product " + depth * horizontal);
     }
 
 }
