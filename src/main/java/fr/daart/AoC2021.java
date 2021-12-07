@@ -12,6 +12,10 @@ public abstract class AoC2021 {
 
     public abstract void run();
 
+    protected void println(Object o) {
+        System.out.println(o);
+    }
+
     protected List<String> readInput(String filename) {
         try {
             return Files.readAllLines(Paths.get(this.getClass().getResource(filename).toURI()), Charset.defaultCharset());
